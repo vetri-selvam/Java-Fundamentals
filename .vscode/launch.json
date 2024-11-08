@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "NorthSouthPairs",
+            "request": "launch",
+            "mainClass": "NorthSouthPairs",
+            "projectName": "Java Fundamentals_74709229"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ReverseandSumArray",
+            "request": "launch",
+            "mainClass": "ReverseandSumArray",
+            "projectName": "Java Fundamentals_74709229"
+        },
+        {
+            "type": "java",
+            "name": "binaryToDecimal",
+            "request": "launch",
+            "mainClass": "binaryToDecimal",
+            "projectName": "Java Fundamentals_74709229"
+        },
+        {
+            "type": "java",
+            "name": "countSunday",
+            "request": "launch",
+            "mainClass": "countSunday",
+            "projectName": "Java Fundamentals_74709229"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "Java Fundamentals_74709229"
+        },
+        {
+            "type": "java",
+            "name": "roughPaper",
+            "request": "launch",
+            "mainClass": "roughPaper",
+            "projectName": "Java Fundamentals_74709229"
+        }
+    ]
+}
