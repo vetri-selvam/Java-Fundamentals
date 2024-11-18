@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EpisodeTestDrive",
+            "request": "launch",
+            "mainClass": "EpisodeTestDrive",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
+            "name": "StreamSongTestDrive",
+            "request": "launch",
+            "mainClass": "StreamSongTestDrive",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
+            "name": "StreamSong",
+            "request": "launch",
+            "mainClass": "StreamSong",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
             "name": "NorthSouthPairs",
             "request": "launch",
             "mainClass": "NorthSouthPairs",
