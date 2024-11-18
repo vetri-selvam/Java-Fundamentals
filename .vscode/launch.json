@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DrumKitTestDrive",
+            "request": "launch",
+            "mainClass": "DrumKitTestDrive",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
             "name": "EpisodeTestDrive",
             "request": "launch",
             "mainClass": "EpisodeTestDrive",
