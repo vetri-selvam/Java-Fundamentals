@@ -9,9 +9,7 @@ public class Episode extends StreamingSong {
     void skipToNext() {
         System.out.println("Loading next episode...");
     }
-
 }
-
 class EpisodeTestDrive {
 
     public static void main(String[] args) {
