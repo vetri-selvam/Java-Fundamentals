@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "roughPaper",
+            "request": "launch",
+            "mainClass": "roughPaper",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
             "name": "DrumKitTestDrive",
             "request": "launch",
             "mainClass": "DrumKitTestDrive",
