@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestArrays",
+            "request": "launch",
+            "mainClass": "TestArrays",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
             "name": "HobbitTestDrive",
             "request": "launch",
             "mainClass": "HobbitTestDrive",
