@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "equalsMethodTestDrive",
+            "request": "launch",
+            "mainClass": "equalsMethodTestDrive",
+            "projectName": "Java-Fundamentals_3a03630c"
+        },
+        {
+            "type": "java",
             "name": "ObjInArray",
             "request": "launch",
             "mainClass": "ObjInArray",
