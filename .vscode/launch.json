@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObjInArray",
+            "request": "launch",
+            "mainClass": "ObjInArray",
+            "projectName": "Java-Fundamentals_31bf6bbe"
+        },
+        {
+            "type": "java",
             "name": "TestArrays",
             "request": "launch",
             "mainClass": "TestArrays",
