@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "ArrayListMagnet",
             "request": "launch",
             "mainClass": "ArrayListMagnet",
@@ -27,6 +28,8 @@
         },
         {
             "type": "java",
+=======
+>>>>>>> 55c3fbf5205a98e885feb09d478ebf62c93ae567
             "name": "equalsMethodTestDrive",
             "request": "launch",
             "mainClass": "equalsMethodTestDrive",
