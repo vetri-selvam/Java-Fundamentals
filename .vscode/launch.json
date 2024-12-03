@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListMagnet",
+            "request": "launch",
+            "mainClass": "ArrayListMagnet",
+            "projectName": "Java-Fundamentals_3a03630c"
+        },
+        {
+            "type": "java",
+            "name": "BottleSong",
+            "request": "launch",
+            "mainClass": "BottleSong",
+            "projectName": "Java-Fundamentals_3a03630c"
+        },
+        {
+            "type": "java",
+            "name": "roughPaper",
+            "request": "launch",
+            "mainClass": "roughPaper",
+            "projectName": "Java-Fundamentals_3a03630c"
+        },
+        {
+            "type": "java",
             "name": "equalsMethodTestDrive",
             "request": "launch",
             "mainClass": "equalsMethodTestDrive",
