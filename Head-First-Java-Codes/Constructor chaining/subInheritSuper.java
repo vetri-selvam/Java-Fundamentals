@@ -13,7 +13,7 @@ class Dog extends Animal{
     }
 }
 
-class roughPaper{
+class SubInheriSuper{
     public static void main(String[] args) {
         Animal obj = new Dog(); 
         // when dog object created, Animal object also created and Animal's instance variables are created for the access of subclass object. Eg: weight.

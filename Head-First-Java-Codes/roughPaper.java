@@ -1,4 +1,5 @@
 interface Animal {
+    
 
     abstract public void run();
 
@@ -8,6 +9,7 @@ interface Animal {
 }
 
 class Canine {
+    public int weight = 10;
     public void eat(){
         System.out.println("EATING");
     }
@@ -24,10 +26,11 @@ class roughPaper{
     public static void main(String[] args) {
         Canine obj = new Dog();
         
-
-        ((Animal)obj).run();  // how can I overcome this error obj.run(); ?
-        Animal.jog();
-        obj.eat();
+        System.out.println(obj.weight);
+        
+        // ((Animal)obj).run();  // how can I overcome this error obj.run(); ?
+        // Animal.jog();
+        // obj.eat();
 
         
     }
