@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -38,7 +37,7 @@ class Songs{
     private final int year;
     private final int timesPlayed;
 
-  // Create a constructor, 
+  // Create a constructor
     Song (String title, String artist, String genre, int year, int timesPlayed) {
         this.title = title;
         this.artist = artist;
