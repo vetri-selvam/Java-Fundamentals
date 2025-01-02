@@ -11,6 +11,11 @@ class MiniMiniMusicApp {
 
     public void play() {
         try {
+            /**
+             * Why try block used?
+             * getSequencer() throws MidiUnavailableException. That's why.
+             */
+
             // 1. Create a Sequencer object
             Sequencer player = MidiSystem.getSequencer();
             // 2. open sequencer
