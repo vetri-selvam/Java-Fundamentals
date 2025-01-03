@@ -32,18 +32,21 @@ public class MiniMusicCmdLine {
             ShortMessage msg1 = new ShortMessage();
             msg1.setMessage(PROGRAM_CHANGE, 1, instrument, 0);
             MidiEvent changeInstrument = new MidiEvent(msg1, 1);
+            //Add MidiEvent1 to track
             track.add(changeInstrument);
             // ShortMessage 2 and MidiEvent 2
             ShortMessage msg2 = new ShortMessage();
             msg2.setMessage(NOTE_ON, 1, note, 100);
             MidiEvent noteOn = new MidiEvent(msg2, 1);
+            //Add MidiEvent2 to track            
             track.add(noteOn);
             // ShortMessage 3 and MidiEvent 3
             ShortMessage msg3 = new ShortMessage();
             msg3.setMessage(NOTE_OFF, 1, note, 100);
             MidiEvent noteOff = new MidiEvent(msg3, 16);
+            //Add MidiEvent3 to track
             track.add(noteOff);
-
+            // set the Sequence in Sequencer and start the Sequencer
             player.setSequence(seq);
             player.start();
 
