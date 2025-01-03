@@ -13,7 +13,7 @@ class MiniMiniMusicApp {
         try {
             /**
              * Why try block used?
-             * getSequencer() throws MidiUnavailableException. That's why.
+             * getSequencer() might throw MidiUnavailableException. That's why.
              */
 
             // 1. Create a Sequencer object
