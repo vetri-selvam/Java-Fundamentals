@@ -20,6 +20,7 @@ public class MiniMusicCmdLine {
         }
     }
 
+
     public void play(int instrument, int note) {
         try {
             // Sequencer
