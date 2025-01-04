@@ -1,7 +1,6 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;;
+import java.awt.event.*;
+
 /**
  * NOTE: You wouldn't usually make your main GUI class 
  * implement ActionListener like this; this is just the simplest way 
