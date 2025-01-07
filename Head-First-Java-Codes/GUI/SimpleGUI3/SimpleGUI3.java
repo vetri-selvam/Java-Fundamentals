@@ -4,12 +4,13 @@ import java.awt.event.*;
 
 public class SimpleGUI3 implements ActionListener {
     public JFrame frame;
+
     public static void main(String[] args) {
         SimpleGUI3 gui = new SimpleGUI3();
         gui.go();
     }
 
-    public void go(){
+    public void go() {
         // create frame
         frame = new JFrame();
         // make frame exit on close
@@ -27,17 +28,18 @@ public class SimpleGUI3 implements ActionListener {
         frame.getContentPane().add(BorderLayout.SOUTH, button);
         frame.getContentPane().add(BorderLayout.CENTER, drawPanel);
         // setSize and make it VISIBLE
-        frame.setSize(300, 300);
+        frame.setSize(500, 500);
         frame.setVisible(true);
     }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         /**
-         * When the user clicks, tell the frame to repaint() itself. That means 
+         * When the user clicks, tell the frame to repaint() itself. That means
          * paintComponent() is called on every widget in the frame!
          */
         frame.repaint();
-        
+
     }
-    
+
 }
