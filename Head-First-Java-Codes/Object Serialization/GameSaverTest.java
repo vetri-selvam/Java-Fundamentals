@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Arrays;
 
 class GameCharacter implements Serializable {
     int power;
@@ -12,9 +13,14 @@ class GameCharacter implements Serializable {
         this.weapons = weapons;
     }
 
-    // type getter
+    // getters
     public String getType() {
         return type;
+    }
+
+    // getter to return a String of array
+    public String getWeapons() {
+        return Arrays.toString(weapons);
     }
 
 }
@@ -54,10 +60,14 @@ public class GameSaverTest {
             GameCharacter twoRestore = (GameCharacter) is.readObject();
             GameCharacter threeRestore = (GameCharacter) is.readObject();
 
+            // close the ObjectInputStream
+            is.close();
+
             // check to see if states are same as when it was serialized.
             System.out.println("One's type: " + oneRestore.getType());
             System.out.println("Two's type: " + twoRestore.getType());
             System.out.println("Three's type: " + threeRestore.getType());
+
         } catch (Exception ex) {
             ex.printStackTrace();
         }
