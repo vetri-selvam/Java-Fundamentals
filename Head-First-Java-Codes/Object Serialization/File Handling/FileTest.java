@@ -4,8 +4,7 @@ public class FileTest {
     public static void main(String[] args) {
         // make a new Folder
         File dir = new File("New Folder");
-        // create another inside "New Folder"
-        File dir2 = new File("New Folder/new");
+        // create a folder (directory) with a name "New Folder" using mkdir()
         dir.mkdir();
 
     }
