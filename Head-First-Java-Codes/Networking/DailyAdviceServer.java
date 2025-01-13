@@ -68,9 +68,10 @@ public class DailyAdviceServer {
         }
     }
 
+    // return a random advice from the adviceList
     private String getAdvice(){
-        int nextAdive = random.nextInt(adviceList.length);
-        return adviceList[nextAdive];
+        int nextAdvice = random.nextInt(adviceList.length);
+        return adviceList[nextAdvice];
     }
 
 }
