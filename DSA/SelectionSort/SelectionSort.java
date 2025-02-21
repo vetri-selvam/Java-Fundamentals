@@ -4,6 +4,9 @@ public class SelectionSort {
     public static void selectionSort(int[] arr){
 
         for ( int i =0; i<arr.length-1;i++){
+            // arr.length-1: because we are comparing with the next element
+            // in the nested loop which is i+1, so the last element will never
+            // be i or else it'll be out of bounds.
 
             // Assume the current position holds
             // the minimum element
